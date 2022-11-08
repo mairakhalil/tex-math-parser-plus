@@ -1,10 +1,10 @@
 {
   "name": "tex-math-parser",
-  "version": "2.0.2",
+  "version": "1.0.1",
   "description": "A TeX math parser that can evaluate TeX math and convert it into a MathJS expression tree.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidtranhq/tex-math-parser.git"
+    "url": "git+https://github.com/netthera/tex-math-parser-plus.git"
   },
   "scripts": {
     "start": "npx patch-package && tsc --watch",
@@ -26,12 +26,12 @@
     "math",
     "evaluate"
   ],
-  "author": "David Tran",
+  "author": "Nicholas Alson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidtranhq/tex-math-parser/issues"
+    "url": "https://github.com/netthera/tex-math-parser-plus/issues"
   },
-  "homepage": "https://github.com/davidtranhq/tex-math-parser#readme",
+  "homepage": "https://github.com/netthera/tex-math-parser-plus#readme",
   "dependencies": {
     "mathjs": "^9.4.4",
     "matrix-eig": "^1.0.0",
